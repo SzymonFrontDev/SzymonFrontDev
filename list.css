@@ -1,0 +1,28 @@
+.list__Item {
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+.list {
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+.list__Link:hover {
+    color: rgb(19, 10, 10);
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.list__Item {
+    text-align: center;
+}
+
+.list__Link {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(137, 137, 175);
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}

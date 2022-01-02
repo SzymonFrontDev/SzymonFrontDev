@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="table.css" rel="stylesheet">
+  <link href="section.css" rel="stylesheet">
+  <link href="list.css" rel="stylesheet">
+  <link href="header.css" rel="stylesheet">
+  <link href="footer.css" rel="stylesheet">
+  <link href="button.css" rel="stylesheet">
+  <script defer src="C:\dev\homepage\script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Praise&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="body  js-body">
+  <nav class="navigation">
+    <section class="section" id="poczatek">
+      <h1 class="header">Szymon Leśko</h1>
+      <ul clas="list">
+        <li class="list__Item"><a class="list__Link" href=#Coś-o-mnie>Coś o mnie</a></li>
+        <li class="list__Item"><a class="list__Link" href=#Moje-zainteresowania>Moje zainteresowania</a></li>
+        <li class="list__Item"><a class="list__Link" href=#Dlaczego-programowanie?>Dlaczego programowanie ?</a></li>
+        <li class="list__Item"><a class="list__Link" href=#Muzyka>Muzyka</a></li>
+      </ul>
+    </section>
+    <button class="button  js-button">Włącz <span class="theme js-theme">ciemny</span> motyw</button>
+    <section id="Coś-o-mnie" class="section">
+      <h2>Coś o mnie</h2>
+      <p>Mam na imię Szymon, mam 21 lat. Naukę po gimnazjalną zaczynałem od technikum informatycznego,
+        uczyłem się w tej klasie przez 2 lata, po czym zostałem zmuszony na zmianę kierunku,
+        ponieważ nie mogłem sobie poradzić z niektórymi przedmiotami w szkole. Przeniosłem się do
+        klasy medycznej, którą ukończyłem. Od ponad 2 lat gram na gitarze elektrycznej.
+        Namówił mnie do tego mój przyjaciel, który sam gra na basie oraz gitarze akustycznej.
+      </p> <a class="navigation__listlink  list__Link" href="#poczatek">przenieś na początek</a>
+    </section>
+
+    <section id="Moje-zainteresowania" class="section">
+      <h3>Moje zainteresowania</h3>
+      <p>Moim głównym zainteresowaniem jest muzyka, bez której nie mogę żyć oraz granie na gitarze elektrycznej. Od
+        niedawna
+        moim kolejnym zainteresowaniem stało się programowanie.
+      </p> <a class="navigation__listlink  list__Link" href="#poczatek">przenieś na początek</a>
+    </section>
+
+    <section id="Dlaczego-programowanie?" class="section">
+      <h4>Dlaczego programowanie?</h4>
+      <p>W sumie to plany były troszkę inne. Wraz z moim Przyjacielem, gdy jeszcze chodziliśmy do
+        szkoły, zaplanowaliśmy, że wylecimy na <a class="navigation__listlink  list__Link" target="_blank"
+          rel="noreferrer noopener" href=https://www.pl.emb-japan.go.jp/kultura/stypendia_ogolne.html>
+          stypendium do Japonii, </a>aby tam studiować
+        psychologię kliniczną, lecz czas pokazał, że nie warto, jest planować aż tak
+        dalekiej przyszłości. Przygodę z programowaniem zacząłem niedawno, lecz myślałem
+        o tym już od dłuższego czasu. Nie ukrywając, programowaniem zacząłem się interesować
+        dzięki serialowi "Mr.robot" &#128517;(gorąco polecam). Uznałem, że przy programowaniu
+        można się dobrze bawić. Na ten kurs natknąłem się przez przypadek na FaceBook'u.
+        Gdy zobaczyłem reklamę "youcode" stwierdziłem, że to jest moja szansa na zostanie
+        programistą.
+
+      </p><a class="navigation__listlink  list__Link" href="#poczatek">przenieś na początek</a>
+    </section>
+    <section id="Muzyka" class="section">
+      <div class="tableContainer">
+        <table class="table">
+          <caption class="caption">Moje ulubione utwory</caption>
+          <tr class="table__Row">
+            <th class="table__Cell  table__Header" scope="col">Tytuł</th>
+            <th class="table__Cell  table__Header" scope="col">Wykonawca</th>
+            <th class="table__Cell  table__Header" scope="col">Album</th>
+            <th class="table__Cell  table__Header" scope="col">Rok</th>
+          </tr>
+          <tr class="table__Row">
+            <th class="table__Cell  table__Header">Fly me to the moon</th>
+            <td class="table__Cell"> Frank Sinatra</td>
+            <td class="table__Cell"> It Might as Well Be Swing</td>
+            <td class="table__Cell">1964</td>
+          </tr>
+          <tr class="table__Row">
+            <th class="table__Cell  table__Header" scope="row">Reverie</th>
+            <td class="table__Cell">Opeth</td>
+            <td class="table__Cell">Ghost Reveries</td>
+            <td class="table__Cell">2005</td>
+          </tr>
+          <th class="table__Cell  table__Header" scope="row"> Face of melinda</th>
+          <td class="table__Cell" rowspan="2">Opeth</td>
+          <td class="table__Cell" rowspan="2">Still Life</td>
+          <td class="table__Cell" rowspan="2">2005</td>
+          </tr>
+          <tr class="table__Row">
+            <th class="table__Cell  table__Header" scope="row">Benighted</th>
+          </tr>
+          <tr class="table__Row">
+            <th class="table__Cell  table__Header" scope="row">Californication</th>
+            <td class="table__Cell">Red Hot Chili Peppers</td>
+            <td class="table__Cell">Californication</td>
+            <td class="table__Cell">1999</td>
+          </tr>
+        </table>
+      </div>
+
+
+
+
+      </table>
+      <a class="navigation__listlink  list__Link" href="#poczatek">przenieś na początek</a>
+    </section>
+
+  </nav>
+  <footer class="footer">
+    <p class="Copyright">Copyright © Szymmon Leśko</p>
+  </footer>
+
+</body>
+
+</html>
