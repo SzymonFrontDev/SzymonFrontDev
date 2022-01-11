@@ -7,7 +7,7 @@
         const body = document.querySelector(".js-body");
 
         body.classList.toggle("dark");
-        theme.innerText = body.classList.contains("dark ") ? "jasny" : "ciemny";
+        theme.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
 
     }
 
